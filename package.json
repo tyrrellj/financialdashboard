@@ -26,11 +26,15 @@
     "@nuxt/eslint-config": "^0.6.1",
     "eslint": "^9.14.0",
     "typescript": "^5.6.3",
+    "unenv": "^1.10.0",
     "vue-tsc": "^2.1.10",
     "wrangler": "^3.84.1"
   },
   "packageManager": "pnpm@9.12.3",
   "trustedDependencies": [
-    "@parcel/watcher"
+    "@parcel/watcher",
+    "esbuild",
+    "vue-demi",
+    "workerd"
   ]
 }
